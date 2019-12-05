@@ -58,12 +58,7 @@ html, body {
       margin-top: 10px;
       margin-bottom: 10px;
   }
-  
-  p {
-      margin: 0px;
-      padding-left: 15px;
-      padding-right: 15px;
-  }
+ 
   
   #about-me-link,
   #my-work-link,
@@ -84,21 +79,7 @@ html, body {
   
   }
   
-  
-  .psu2{
-    position: relative;
-    height: 32px;
-     width: auto;
-     top: -10px;
-     visibility: hidden;
-  }
-  
-  .tf2{
-    position: relative;
-    height: 52px;
-     width: auto;
-     visibility: hidden;
-  }
+
   #aboutMe{
     font-size: 20px;
       letter-spacing: 5px;
@@ -106,8 +87,8 @@ html, body {
   }
   
   .aboutParagraph{
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
   #contactMe{
@@ -142,12 +123,13 @@ html, body {
   }
   
   .projectInfo{
-   margin-left: 15px;
-      position: relative;
-      border: 2px solid;
-      margin-bottom: 25px;
-      width: 486px;
-      float: left;
+    margin-left: 15px;
+    position: relative;
+    margin-right: 15px;
+    border: 2px solid;
+    margin-bottom: 25px;
+    width: 50%;
+    float: left;
   }
   
   .projectPicture{
@@ -165,10 +147,26 @@ html, body {
    list-style-type: none;
   }
   
-  .projectParagraph {
-      font-size: 14px;
-      padding-left: 515px;
-      padding-right: 60px;
+
+  @media screen and (max-width: 414px) {
+    .psu2{
+        position: relative;
+        height: 32px;
+         width: auto;
+         top: -10px;
+         visibility: hidden;
+      }
+      
+      .tf2{
+        position: relative;
+        height: 52px;
+         width: auto;
+         visibility: hidden;
+      }
+      .projectParagraph {
+        font-size: 14px;
+
+    }
   }
 
   @media screen and (min-width: 415px) {
@@ -189,10 +187,7 @@ html, body {
          float: right;
       }
       .projectParagraph {
-        margin-top: 65px;
         font-size: 34px;
-        padding-left: 515px;
-        padding-right: 60px;
     }
   }
 
