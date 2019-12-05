@@ -1,2 +1,0 @@
-# MikesPortfolio
-My Resume Portfolio
