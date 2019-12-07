@@ -3,7 +3,7 @@
 html, body {
     box-sizing: border-box;
     font-family: Domine;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
   }
   
@@ -13,6 +13,7 @@ html, body {
       width: 100%;
       background-color: #8A8AFF;
       height: 100px;
+      border-radius: 25px;
   }
   
   .psu{
@@ -50,7 +51,7 @@ html, body {
   } 
   #nav-ul li {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   }
 
   .nav-links:link {
@@ -72,7 +73,7 @@ html, body {
   #my-work-link,
   #contact-link,
   #resume-link {
-      font-size: 18px;
+      font-size: 85%;
   }
 
   #nameNav {
@@ -96,10 +97,17 @@ html, body {
   
   .line2 {
       width: 75%;
-      margin-top: 30px;
+      margin-top: 0px;
       margin-bottom: 40px;
+      
   }
-  
+
+   .line3 {
+      width: 75%;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-top: 2px dotted white;
+  }
 
   #aboutMe{
     font-size: 20px;
@@ -129,6 +137,10 @@ html, body {
     list-style-type: none;
   
   } 
+
+  .contactLinks{
+    width: 50px;
+  }
   
   #workTitle{
     font-size: 20px;
@@ -166,6 +178,21 @@ html, body {
   .usedSoft{
    list-style-type: none;
   }
+
+  .respiratory:link {
+  color: #8A8AFF;
+  text-decoration: none;
+}
+  .respiratory:hover {
+  color: #8A8AFF;
+  text-shadow: 2px 2px 40px white;
+  text-decoration: underline;
+}
+
+.respiratory:visited {
+  color: white;
+  text-decoration: none;
+}
   
 
   @media screen and (max-width: 414px) {
@@ -185,14 +212,22 @@ html, body {
       }
       .projectParagraph {
         font-size: 14px;
-
     }
-  }
+
+}
 
   @media screen and (min-width: 415px) {
+    #about-me-link,
+  #my-work-link,
+  #contact-link,
+  #resume-link {
+      font-size: 100%;
+  }
+
+   
     .psu2{
         position: relative;
-        height: 82px;
+        height: 100px;
          width: auto;
          top: -10px;
          visibility: visible;
