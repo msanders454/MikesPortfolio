@@ -99,9 +99,30 @@ html, body {
       border-top: 2px dotted white;
   }
 
+  .psu{
+    position: absolute;
+    height: 2px;
+     width: auto;
+     top: -10px;
+     visibility: hidden;
+  }
+  
+  .tf{
+    position: absolute;
+    height: 2px;
+     width: auto;
+     visibility: hidden;
+  }
+
   #aboutMe{
     font-size: 20px;
     letter-spacing: 5px;
+    text-align: center;
+  }
+
+  .abstract{
+      font-size: 15px;
+      letter-spacing: 5px;
     text-align: center;
   }
   
@@ -160,6 +181,7 @@ html, body {
       letter-spacing: 5px;
     text-align: center;
   }
+
   
   #projectTitle{
     font-size:15px;
@@ -177,6 +199,10 @@ html, body {
     float: left;
   }
   
+  .projectParagraph {
+    font-size: 14px;
+}
+
   .projectPicture{
     position: relative;
     width: 100%;
@@ -222,40 +248,14 @@ justify-content: flex-start;
 
   #jqueryFix2{
     position: relative;
-    top: 5px;
-    width: 45%;
-  }
-  
-  #respiratoryP{
-    text-align: center;
-  }
-
-  @media screen and (max-width: 414px) {
-    .psu{
-        position: absolute;
-        height: 2px;
-         width: auto;
-         top: -10px;
-         visibility: hidden;
-      }
-      
-      .tf{
-        position: absolute;
-        height: 2px;
-         width: auto;
-         visibility: hidden;
-      }
-      .projectParagraph {
-        font-size: 14px;
-    }
-
-    #jqueryFix2{
-    position: relative;
     top: 3px;
     width: 45%;
   }
 
-}
+  
+  #respiratoryP{
+    text-align: center;
+  }
 
   @media screen and (min-width: 415px) {
 
@@ -291,9 +291,32 @@ justify-content: flex-start;
          visibility: visible;
          float: right;
       }
+
+      .aboutParagraph{
+        padding-left: 100px;
+        padding-right: 100px;
+      }
       .projectParagraph {
-        font-size: 20px;
+        font-size: 18px;
     }
+
+    .projectInfo{
+        margin-left: 15px;
+        position: relative;
+        margin-right: 15px;
+        border: 2px solid;
+        margin-bottom: 25px;
+        width: 40%;
+        float: left;
+      }
+      
+    
+  #jqueryFix2{
+    position: relative;
+    top: 5px;
+    width: 45%;
+  }
+
   }
 
   
